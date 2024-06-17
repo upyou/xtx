@@ -3,11 +3,13 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <el-button type="primary" @click="$router.push('/about')">Go to About</el-button>
-  <RouterView />
+  <router-view></router-view>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+.text{
+  color: $xtxColor;
+}
 header {
   line-height: 1.5;
   max-height: 100vh;
