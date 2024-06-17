@@ -1,35 +1,5 @@
-# vue-rabbit
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+#小兔鲜电商项目 
+##描述: 这是一个电商网站项目，旨在模拟一个完整的在线购物体验。
+使用Vue.js实现了数据绑定和组件化开发，提升了代码的可维护性和重用性。
+实现了响应式设计，确保在不同设备上有良好的用户体验。
+通过API与后端进行数据交互, 实现了登录、商品展示、搜索、购物车管理和订单处理等功能 并且使用使用 piain将数据持久化到本地
